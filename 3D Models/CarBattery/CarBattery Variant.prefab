@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1478012276330368498
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 735d5d3bdec42d741b38c64a01640a8b, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 735d5d3bdec42d741b38c64a01640a8b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 735d5d3bdec42d741b38c64a01640a8b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 735d5d3bdec42d741b38c64a01640a8b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 735d5d3bdec42d741b38c64a01640a8b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 735d5d3bdec42d741b38c64a01640a8b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 735d5d3bdec42d741b38c64a01640a8b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 735d5d3bdec42d741b38c64a01640a8b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 735d5d3bdec42d741b38c64a01640a8b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 735d5d3bdec42d741b38c64a01640a8b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 735d5d3bdec42d741b38c64a01640a8b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7515429101286732190, guid: 735d5d3bdec42d741b38c64a01640a8b, type: 3}
+      propertyPath: m_Name
+      value: Sensor1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6733177361254619370, guid: 735d5d3bdec42d741b38c64a01640a8b, type: 3}
+      propertyPath: m_Name
+      value: Metal
+      objectReference: {fileID: 0}
+    - target: {fileID: -3778644264426962316, guid: 735d5d3bdec42d741b38c64a01640a8b, type: 3}
+      propertyPath: m_Name
+      value: Body
+      objectReference: {fileID: 0}
+    - target: {fileID: -2947538861075970057, guid: 735d5d3bdec42d741b38c64a01640a8b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f16222e0a1e94b498dc0719dc0d4b71, type: 2}
+    - target: {fileID: -2764512629625626004, guid: 735d5d3bdec42d741b38c64a01640a8b, type: 3}
+      propertyPath: m_Name
+      value: Sensor3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2040254050740271484, guid: 735d5d3bdec42d741b38c64a01640a8b, type: 3}
+      propertyPath: m_Name
+      value: Sensor2
+      objectReference: {fileID: 0}
+    - target: {fileID: -1439730007547781893, guid: 735d5d3bdec42d741b38c64a01640a8b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 577069909f7486b478615fdd20f50fd3, type: 2}
+    - target: {fileID: 919132149155446097, guid: 735d5d3bdec42d741b38c64a01640a8b, type: 3}
+      propertyPath: m_Name
+      value: CarBattery Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455292422214010178, guid: 735d5d3bdec42d741b38c64a01640a8b, type: 3}
+      propertyPath: m_Name
+      value: Sensor4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4504409719310791647, guid: 735d5d3bdec42d741b38c64a01640a8b, type: 3}
+      propertyPath: m_Name
+      value: Lid
+      objectReference: {fileID: 0}
+    - target: {fileID: 5008022236170083033, guid: 735d5d3bdec42d741b38c64a01640a8b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88156c1eef240834ab0f7f26a3b0e9f4, type: 2}
+    - target: {fileID: 9141816029861474070, guid: 735d5d3bdec42d741b38c64a01640a8b, type: 3}
+      propertyPath: m_Name
+      value: Sensor5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9217234437682292332, guid: 735d5d3bdec42d741b38c64a01640a8b, type: 3}
+      propertyPath: m_Name
+      value: DeadFly
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 735d5d3bdec42d741b38c64a01640a8b, type: 3}
