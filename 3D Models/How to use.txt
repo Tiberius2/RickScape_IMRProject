@@ -1,0 +1,11 @@
+Majoritatea folderelor ar trebui sa contina:
+1) Un fisier cu extensia .fbx (actual model)
+2) Un set de fisiere .mat : cate un material pentru fiecare componenta a modelului
+3) Un Prefab file
+
+Cum folosec:
+1) Import toate continuturile fisierului in unity.
+2) Trag fisierul PREFAB in scena, materialele ar trebui sa fie deja alocat obiectelor necesare.
+ Modificarile necesare se fac pe PREFAB, dublu click pe fisierul prefab pentru a-l deschide.
+ Modelele sunt formate din bucati ce pot fi modificate individual prin Unity.
+ Daca unele modificari sunt prea avansate pentru Unity se importa modelul fbx in Blender si se modifica ca atare.
