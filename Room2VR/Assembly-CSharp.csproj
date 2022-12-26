@@ -57,7 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Phone.cs" />
+    <Compile Include="Assets\Scripts\Radio.cs" />
     <Compile Include="Assets\Scripts\left_hand_controller.cs" />
+    <Compile Include="Assets\Scripts\lockscreen.cs" />
     <Compile Include="Assets\Scripts\Hand.cs" />
     <Compile Include="Assets\Scripts\LeftHand.cs" />
     <Compile Include="Assets\Scripts\hand_controller.cs" />

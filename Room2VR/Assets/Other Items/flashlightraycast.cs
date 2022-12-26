@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class flashlightraycast : MonoBehaviour
 {
-
     public const int MAX_DIGITS = 5;
 
     public float range = 500;
@@ -30,23 +29,14 @@ public class flashlightraycast : MonoBehaviour
     void Update()
     {
         Vector3 direction = Vector3.forward;
-        Vector3 offset = new Vector3(2, 0, 0);
-
 
         Ray ray = new Ray(source.transform.position, source.transform.TransformDirection(direction * range));
         Debug.DrawRay(source.transform.position, source.transform.TransformDirection(direction * range));
 
         if (Physics.Raycast(ray, out RaycastHit hit, range))
         {
-            // print(hit.collider.gameObject.name);
-
-            if (hit.collider.tag == "HasHiddenText")
+            if (hit.collider.CompareTag("HasHiddenText"))
             {
-                /*if (lastHit != null)
-                {
-                    lastHit.SetActive(false);
-                }*/
-
                 lastHit = hit.collider.gameObject.transform.GetChild(0).gameObject;
                 if (!lastHit.activeSelf)
                 {
@@ -58,21 +48,6 @@ public class flashlightraycast : MonoBehaviour
                     }
                 }
             }
-            /*else
-            {
-                if (lastHit != null)
-                {
-                    lastHit.SetActive(false);
-                }
-            }*/
         }
-        /*else
-        {
-            if (lastHit != null)
-            {
-                lastHit.SetActive(false);
-            }
-        }*/
-
     }
 }

@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class Phone : MonoBehaviour
 {
-
-    private bool unlocked = false;
     public GameObject lockedText;
     public GameObject unlockedText;
     public GameObject slideshow;
 
     public void Unlock()
     {
-        unlocked = true;
         lockedText.SetActive(false);
         unlockedText.SetActive(true);
         slideshow.SetActive(true);

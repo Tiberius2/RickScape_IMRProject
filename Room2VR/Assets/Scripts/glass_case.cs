@@ -6,6 +6,7 @@ using UnityEngine;
 public class glass_case : MonoBehaviour
 {
     int punchCount = 0;
+    public bool caseFell = false;
 
     public void OnTriggerEnter(Collider other)
     {
@@ -18,10 +19,10 @@ public class glass_case : MonoBehaviour
             }
             else if (animComp.GetCurrentAnimatorStateInfo(1).IsTag("punch-tag"))
             {
-                this.gameObject.GetComponent<Rigidbody>().useGravity = true;
-                if(this.gameObject.transform.position.z < -10)
+                if (this.TryGetComponent<Animator>(out Animator caseAnim))
                 {
-                    this.gameObject.SetActive(false);
+                    caseAnim.SetBool("should_fall", true);
+                    caseFell = true;
                 }
             }
         }
@@ -36,10 +37,5 @@ public class glass_case : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-/*        if(this.gameObject.GetComponent<Rigidbody>().useGravity == true && this.gameObject.transform.)
-        {
-            this.gameObject.GetComponent<Rigidbody>().useGravity = false;
-            //this.gameObject.transform.position = new Vector3((float)-1.891, (float)12.125, (float)2.6);
-        }*/
     }
 }

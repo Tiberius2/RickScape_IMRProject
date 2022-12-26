@@ -23,6 +23,9 @@ TagManager:
   - 9
   - button9
   - floor
+  - box_locked_lid
+  - screen_numbers
+  - radio
   layers:
   - Default
   - TransparentFX

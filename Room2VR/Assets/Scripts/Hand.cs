@@ -2,7 +2,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.XR;
 
 [RequireComponent(typeof(Animator))]
@@ -13,13 +15,19 @@ public class Hand : MonoBehaviour
     private float punchCurrent = 0;
     public float speedValue = 10;
     public GameObject phone;
+    public GameObject lockedBoxLid;
     public bool PhonePicked = false;
+    public bool StorageBoxUnlocked = false;
 
     private bool punchableNearby = false;
     private bool pointableNearby = false;
 
-    private int numpadPassword = 7531;
-    private string inputPassword = "";
+    public LeftHand leftHand;
+
+    public TextMeshPro storageBoxText;
+
+    private int actualPassword = 7953;
+    private string inputPassword = string.Empty;
 
     internal void SetPunch(float v)
     {
@@ -41,13 +49,16 @@ public class Hand : MonoBehaviour
             SetPoint(false);
         }
 
+        if (leftHand.RadioPicked)
+        {
+            SetPoint(true);
+        }
+
         AnimateHand();
     }
 
     void AnimateHand()
     {
-        //Debug.Log("current:"+ punchCurrent.ToString() + "; target:" + punchTarget.ToString());
-
         if (punchCurrent != punchTarget)
         {
             punchCurrent = Mathf.MoveTowards(punchCurrent, punchTarget, Time.deltaTime * speedValue);
@@ -80,8 +91,6 @@ public class Hand : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.tag);
-
         if (!PhonePicked)
         {
             if (other.CompareTag("punch_zone"))
@@ -105,26 +114,47 @@ public class Hand : MonoBehaviour
                 SetRotate(true);
             }
 
-            if (pointableNearby)
+            if (pointableNearby && !StorageBoxUnlocked)
             {
                 if (int.TryParse(other.tag, out int number))
                 {
-                    inputPassword = inputPassword + other.tag;
-                    if(inputPassword.Length == 4)
-                    {
-                        CheckPassword(inputPassword);
-                    }
+                    storageBoxText.color = Color.white;
+                    inputPassword += number;
+                    storageBoxText.text = inputPassword;
+
+                    CheckPassword();
+                }
+            }
+
+            if (leftHand.RadioPicked)
+            {
+                if (other.CompareTag("radio"))
+                {
+                    leftHand.radio.PressButton();
                 }
             }
         }
     }
 
-    private void CheckPassword(string inputPassword)
+    private void CheckPassword()
     {
-        int.TryParse(inputPassword, out int input);
-        if(input != 0 && input == numpadPassword)
+        if (inputPassword.Length == 4)
         {
-
+            if (int.TryParse(inputPassword, out int numpadPassword) && numpadPassword == actualPassword)
+            {
+                storageBoxText.color = Color.green;
+                StorageBoxUnlocked = true;
+                SetPoint(false);
+                if (lockedBoxLid.TryGetComponent<Animator>(out Animator animComp) && animComp.CompareTag("box_locked_lid"))
+                {
+                    animComp.SetBool("should_open", true);
+                }
+            }
+            else
+            {
+                storageBoxText.color = Color.red;
+                inputPassword = string.Empty;
+            }
         }
     }
 }
