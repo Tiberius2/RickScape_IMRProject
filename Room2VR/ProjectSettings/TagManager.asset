@@ -26,6 +26,17 @@ TagManager:
   - box_locked_lid
   - screen_numbers
   - radio
+  - right_hand
+  - box_unlocked_lid
+  - map_screen_text
+  - button_left_out
+  - button_right_out
+  - button_left_missing
+  - button_right_missing
+  - button_middle
+  - button_choose
+  - button_set
+  - button_cancel
   layers:
   - Default
   - TransparentFX

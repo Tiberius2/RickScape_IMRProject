@@ -58,24 +58,24 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Phone.cs" />
     <Compile Include="Assets\Scripts\Radio.cs" />
-    <Compile Include="Assets\Scripts\left_hand_controller.cs" />
-    <Compile Include="Assets\Scripts\lockscreen.cs" />
-    <Compile Include="Assets\Scripts\Hand.cs" />
+    <Compile Include="Assets\Scripts\LeftHandController.cs" />
+    <Compile Include="Assets\Scripts\RightHand.cs" />
+    <Compile Include="Assets\Scripts\MapScreen.cs" />
+    <Compile Include="Assets\Scripts\Map.cs" />
     <Compile Include="Assets\Scripts\LeftHand.cs" />
-    <Compile Include="Assets\Scripts\hand_controller.cs" />
+    <Compile Include="Assets\Scripts\RightHandController.cs" />
     <Compile Include="Assets\XRPlatformControllerSetup.cs" />
-    <Compile Include="Assets\Other Items\flashlightraycast.cs" />
-    <Compile Include="Assets\PhoneSlideShow.cs" />
+    <Compile Include="Assets\OtherItems\flashlightraycast.cs" />
+    <Compile Include="Assets\Scripts\PhoneSlideShow.cs" />
     <Compile Include="Assets\Samples\Animation Rigging\1.1.1\Animation Rigging Constraint Samples\Info\Scripts\Readme.cs" />
     <Compile Include="Assets\Samples\Animation Rigging\1.1.1\Animation Rigging Constraint Samples\Scripts\mParent.cs" />
-    <Compile Include="Assets\Scripts\glass_case.cs" />
-    <Compile Include="Assets\numpadDisplay.cs" />
+    <Compile Include="Assets\Scripts\GlassCase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\Other Items\lightbeam.shader" />
+    <None Include="Assets\OtherItems\lightbeam.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
