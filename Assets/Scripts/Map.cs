@@ -130,6 +130,7 @@ public class Map : MonoBehaviour
         mapScreen.screenText.fontSize = 45;
         mapScreen.screenText.color = Color.red;
 
+        gameFinished = true;
         return false;
     }
 }

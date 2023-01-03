@@ -5,6 +5,10 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 public class RightHand : MonoBehaviour
 {
+    // temp vars
+    public GameObject movingBox;
+    public GameObject secretDoor;
+
     public GameObject phone;
     public GameObject lockedBoxLid;
     public GameObject unlockedBoxLid;
@@ -38,6 +42,16 @@ public class RightHand : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         animator.SetFloat("punch", punchCurrent);
+
+        if(secretDoor.TryGetComponent<Animator>(out Animator animComp))
+        {
+            animComp.SetBool("open_secret_door", true);
+        }
+
+        if (movingBox.TryGetComponent<Animator>(out Animator animComp2))
+        {
+            animComp2.SetBool("move_box", true);
+        }
     }
 
     // Update is called once per frame
