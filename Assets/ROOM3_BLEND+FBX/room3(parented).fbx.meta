@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 0cc7c660f0dc229408efdf3cf47effe5
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: 2834044052770891607
+    second: room3_room3_floor|door_idle
+  - first:
+      74: -7932223672622506443
+    second: room3_room3_floor|door_idle.001
+  - first:
+      74: -7679947392994757757
+    second: room3_room3_floor|door_open
+  - first:
+      74: 6699337548658224810
+    second: room3_room3_floor|door_open.001
+  - first:
+      74: -629642559774402585
+    second: room3_room3_floor|spacesuit_doorAction
+  - first:
+      74: 475303812025714411
+    second: room3_room3_floor|spacesuit_doorAction.001
+  - first:
+      74: -7072256592871368600
+    second: room3_room3_floor|spacesuit_open
+  - first:
+      74: -5939864956381667266
+    second: morty_door|door_idle
+  - first:
+      74: 2341246703028936735
+    second: morty_door|door_idle.001
+  - first:
+      74: -7933197706268516622
+    second: morty_door|door_open
+  - first:
+      74: -5276492363778551328
+    second: morty_door|door_open.001
+  - first:
+      74: 1748372632092221862
+    second: morty_door|spacesuit_doorAction
+  - first:
+      74: -726224747272981391
+    second: morty_door|spacesuit_doorAction.001
+  - first:
+      74: -1500844628443612744
+    second: morty_door|spacesuit_open
+  - first:
+      74: 1817109814388909198
+    second: spacesuit_door|door_idle
+  - first:
+      74: -3762892254902260425
+    second: spacesuit_door|door_idle.001
+  - first:
+      74: -4533933598425330452
+    second: spacesuit_door|door_open
+  - first:
+      74: 3430510178786312600
+    second: spacesuit_door|door_open.001
+  - first:
+      74: 5749881468196668576
+    second: spacesuit_door|spacesuit_doorAction
+  - first:
+      74: -6772986533381533172
+    second: spacesuit_door|spacesuit_doorAction.001
+  - first:
+      74: 7194094974379185055
+    second: spacesuit_door|spacesuit_open
+  - first:
+      74: -4114727980723808458
+    second: storage_box|door_idle
+  - first:
+      74: 7257315514580513173
+    second: storage_box|door_idle.001
+  - first:
+      74: 1915697018721710049
+    second: storage_box|door_open
+  - first:
+      74: 6889940719138052847
+    second: storage_box|door_open.001
+  - first:
+      74: 3396624902026971540
+    second: storage_box|spacesuit_doorAction
+  - first:
+      74: 3502029281687216077
+    second: storage_box|spacesuit_doorAction.001
+  - first:
+      74: -7827442649329339302
+    second: storage_box|spacesuit_open
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

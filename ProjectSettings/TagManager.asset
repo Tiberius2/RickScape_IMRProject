@@ -42,6 +42,7 @@ TagManager:
   - 0
   - safe_display
   - teleport_extra_room
+  - portal_machine
   layers:
   - Default
   - TransparentFX

@@ -5,6 +5,8 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 public class RightHand : MonoBehaviour
 {
+    public PortalGunMachineBehaviour machine;
+
     // temp vars
     public GameObject movingBox;
     public GameObject secretDoor;
@@ -200,6 +202,11 @@ public class RightHand : MonoBehaviour
         if(map.gameStarted && other.CompareTag("button_cancel"))
         {
             map.Cancel();
+        }
+
+        if (other.CompareTag("portal_machine"))
+        {
+            machine.Open();
         }
     }
 
