@@ -5,9 +5,9 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 public class RightHand : MonoBehaviour
 {
-    public PortalGunMachineBehaviour machine;
 
     // temp vars
+    public GameObject portalGun;
     public GameObject movingBox;
     public GameObject secretDoor;
 
@@ -203,10 +203,10 @@ public class RightHand : MonoBehaviour
         {
             map.Cancel();
         }
-
-        if (other.CompareTag("portal_machine"))
+        if (other.CompareTag("PortalGunInMachine"))
         {
-            machine.Open();
+            other.gameObject.SetActive(false);
+            portalGun.SetActive(true);
         }
     }
 

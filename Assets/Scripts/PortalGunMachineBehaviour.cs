@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class PortalGunMachineBehaviour : MonoBehaviour
 {
+    public bool allPiecesCollected = true;
+
     #region Singleton
     public static PortalGunMachineBehaviour instance;
-   /* private void Awake()
+    private void Awake()
     {
         if (instance == null)
         {
@@ -16,7 +18,7 @@ public class PortalGunMachineBehaviour : MonoBehaviour
         {
             Destroy(gameObject);
         }
-    }*/
+    }
     #endregion
     private Animator _anim;
 
@@ -25,6 +27,14 @@ public class PortalGunMachineBehaviour : MonoBehaviour
     {
         _anim = GetComponent<Animator>();
 
+    }
+    void Update()
+    {
+        if (allPiecesCollected)
+        {
+            Debug.Log("working");
+            Open();
+        }
     }
     [ContextMenu("Test Open")]
     public void Open()

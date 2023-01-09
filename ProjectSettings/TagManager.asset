@@ -43,6 +43,9 @@ TagManager:
   - safe_display
   - teleport_extra_room
   - portal_machine
+  - Enemy
+  - PoralGunHand
+  - PortalGunInMachine
   layers:
   - Default
   - TransparentFX
