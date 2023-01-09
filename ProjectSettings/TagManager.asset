@@ -39,6 +39,13 @@ TagManager:
   - button_cancel
   - wall_safe_door
   - box_moving
+  - 0
+  - safe_display
+  - teleport_extra_room
+  - portal_machine
+  - Enemy
+  - PoralGunHand
+  - PortalGunInMachine
   layers:
   - Default
   - TransparentFX

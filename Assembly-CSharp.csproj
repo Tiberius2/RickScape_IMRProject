@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{33D6F362-050A-CE98-556C-097DB56AB7B6}</ProjectGuid>
+    <ProjectGuid>{3275CCB7-F38B-3F6C-773F-393B8A451A02}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,20 +56,78 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Bullet.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LeanTween.cs" />
+    <Compile Include="Assets\Scripts\ObjectBehaviour.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LTDescr.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LeanTweenExt.cs" />
     <Compile Include="Assets\Scripts\Phone.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\TestingUnitTests.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LTSeq.cs" />
     <Compile Include="Assets\Scripts\Radio.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralUISpace.cs" />
     <Compile Include="Assets\Scripts\LeftHandController.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralSimpleUI.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplineEndless.cs" />
+    <Compile Include="Assets\Scripts\HMDInfoManager.cs" />
+    <Compile Include="Assets\Scripts\GameObjectSize.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier.cs" />
     <Compile Include="Assets\Scripts\RightHand.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplines.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEventsListeners.cs" />
+    <Compile Include="Assets\Scripts\AnimateHandOnInput.cs" />
     <Compile Include="Assets\Scripts\MapScreen.cs" />
     <Compile Include="Assets\Scripts\Map.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacy.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacyExt.cs" />
     <Compile Include="Assets\Scripts\LeftHand.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier2d.cs" />
     <Compile Include="Assets\Scripts\RightHandController.cs" />
     <Compile Include="Assets\XRPlatformControllerSetup.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LTDescrOptional.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEasingTypes.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralSequencer.cs" />
     <Compile Include="Assets\OtherItems\flashlightraycast.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Archived\OldGUIExamplesCS.cs" />
+    <Compile Include="Assets\Scripts\PortalGunMachineBehaviour.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\LogoCinematic.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralCameraShake.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Archived\TestingPunch.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LeanAudio.cs" />
     <Compile Include="Assets\Scripts\PhoneSlideShow.cs" />
     <Compile Include="Assets\Samples\Animation Rigging\1.1.1\Animation Rigging Constraint Samples\Info\Scripts\Readme.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralAdvancedTechniques.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LeanSmooth.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasics2d.cs" />
+    <Compile Include="Assets\Scripts\ChangeColor.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplineTrack.cs" />
     <Compile Include="Assets\Samples\Animation Rigging\1.1.1\Animation Rigging Constraint Samples\Scripts\mParent.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LeanTest.cs" />
     <Compile Include="Assets\Scripts\GlassCase.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline2d.cs" />
+    <Compile Include="Assets\Scripts\MakePortals.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplinePerformance.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasic.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\Following.cs" />
+    <Compile Include="Assets\PuzzlePrefabsGabirel( for VR )\BatteryLineCharger\BatteryChargerController.cs" />
+    <Compile Include="Assets\PuzzlePrefabsGabirel( for VR )\CardReader\CardReaderController.cs" />
+    <Compile Include="Assets\PuzzlePrefabsGabirel( for VR )\Rotating Charger\ButtonPressedRC.cs" />
+    <Compile Include="Assets\PuzzlePrefabsGabirel( for VR )\8-Puzzle\Controller8PiecePuzzle.cs" />
+    <Compile Include="Assets\PuzzlePrefabsGabirel( for VR )\8-Puzzle\NearPieces.cs" />
+    <Compile Include="Assets\PuzzlePrefabsGabirel( for VR )\Rotating Charger\RotatingChargerController.cs" />
+    <Compile Include="Assets\PuzzlePrefabsGabirel( for VR )\BatteryLineCharger\CollidingWith.cs" />
+    <Compile Include="Assets\PuzzlePrefabsGabirel( for VR )\BatteryLineCharger\ButtonPressed.cs" />
+    <Compile Include="Assets\DeadFlyPuzzle\SenzorCorrectColor.cs" />
+    <Compile Include="Assets\DeadFlyPuzzle\FlyColor.cs" />
+    <Compile Include="Assets\DeadFlyPuzzle\PuzzleController.cs" />
+    <Compile Include="Assets\DeadFlyPuzzle\ColorEnum.cs" />
+    <Compile Include="Assets\SimonSays\ScreenBehaviour.cs" />
+    <Compile Include="Assets\SimonSays\ButtonColor.cs" />
+    <Compile Include="Assets\3rdPuzzle1stRoom\Behaviour.cs" />
+    <Compile Include="Assets\3rdPuzzle1stRoom\WireColor.cs" />
+    <Compile Include="Assets\script.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

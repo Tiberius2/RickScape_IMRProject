@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BD08468B-78EE-67FB-B118-2872A56A37A7}</ProjectGuid>
+    <ProjectGuid>{05B09101-3521-3006-CABB-523711E54396}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Samples\Animation Rigging\1.1.1\Animation Rigging Constraint Samples\Info\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\LeanTween\Editor\LeanTweenDocumentationEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -941,7 +942,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{33D6F362-050A-CE98-556C-097DB56AB7B6}</Project>
+      <Project>{3275CCB7-F38B-3F6C-773F-393B8A451A02}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>
