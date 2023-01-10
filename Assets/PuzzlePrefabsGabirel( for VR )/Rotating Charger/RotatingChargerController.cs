@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class RotatingChargerController : MonoBehaviour
 {
@@ -51,8 +52,9 @@ public class RotatingChargerController : MonoBehaviour
 
     private void EjectBattery()
     {
-        Battery.AddComponent<Rigidbody>();
-        Battery.GetComponent<Rigidbody>().AddForce(Battery.transform.forward * ejectForce);
+        Battery.GetComponent<Rigidbody>().useGravity = true;
+        Battery.GetComponent<Rigidbody>().AddForce(Battery.transform.right * ejectForce);
+        Battery.GetComponent<XRGrabInteractable>().enabled = true;
     }
 
     void Update()

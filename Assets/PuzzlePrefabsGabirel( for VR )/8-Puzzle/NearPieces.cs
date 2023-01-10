@@ -16,7 +16,7 @@ public class NearPieces : MonoBehaviour
     {
         if (ControllerScript.movePiece == false && ControllerScript.puzzleEnded == false)
         {
-            if (other.gameObject.CompareTag("PlayerHand"))
+            if (other.gameObject.CompareTag("right_hand") || other.gameObject.CompareTag("left_hand"))
             {
                 if (name == "Piece1")
                 {

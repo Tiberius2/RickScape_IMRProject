@@ -8,7 +8,7 @@ public class ButtonPressedRC : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("PlayerHand"))
+        if (other.gameObject.CompareTag("right_hand") || other.gameObject.CompareTag("left_hand"))
         {
             if (asd.PuzzleEnded == false)
                 if (name == "ButtonOutter")

@@ -8,7 +8,7 @@ public class ButtonPressed : MonoBehaviour
     public BatteryChargerController ControllerScript;
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("PlayerHand"))
+        if (other.gameObject.CompareTag("right_hand") || other.gameObject.CompareTag("left_hand"))
         {
             if (ControllerScript.movePiece == false && ControllerScript.puzzleEnded == false)
             {

@@ -46,11 +46,14 @@ TagManager:
   - Enemy
   - PoralGunHand
   - PortalGunInMachine
+  - position
+  - left_hand
+  - Battery
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Piece
   - Water
   - UI
   - 
