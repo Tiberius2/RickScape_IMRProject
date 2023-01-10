@@ -86,6 +86,7 @@
     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacy.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacyExt.cs" />
     <Compile Include="Assets\Scripts\LeftHand.cs" />
+    <Compile Include="Assets\Menu + progression\PortalChangeLevel.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier2d.cs" />
     <Compile Include="Assets\DeadFlyPuzzle\ColorEnum.cs" />
     <Compile Include="Assets\Scripts\RightHandController.cs" />
@@ -100,10 +101,12 @@
     <Compile Include="Assets\PuzzlePrefabsGabirel( for VR )\BatteryLineCharger\CollidingWith.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\LogoCinematic.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralCameraShake.cs" />
+    <Compile Include="Assets\Menu + progression\Menu Prefabs\MenuController.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingPunch.cs" />
     <Compile Include="Assets\DeadFlyPuzzle\PuzzleController.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanAudio.cs" />
     <Compile Include="Assets\Scripts\PhoneSlideShow.cs" />
+    <Compile Include="Assets\Controller\ControllerScript.cs" />
     <Compile Include="Assets\Samples\Animation Rigging\1.1.1\Animation Rigging Constraint Samples\Info\Scripts\Readme.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline.cs" />
     <Compile Include="Assets\PuzzlePrefabsGabirel( for VR )\Rotating Charger\ButtonPressedRC.cs" />
@@ -128,9 +131,6 @@
     <Compile Include="Assets\PuzzlePrefabsGabirel( for VR )\8-Puzzle\NearPieces.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\Following.cs" />
-    <Compile Include="Assets\Controller\ControllerScript.cs" />
-    <Compile Include="Assets\Menu + progression\Menu Prefabs\MenuController.cs" />
-    <Compile Include="Assets\Menu + progression\PortalChangeLevel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

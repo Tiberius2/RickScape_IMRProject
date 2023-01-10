@@ -57,6 +57,7 @@ public class ControllerScript : MonoBehaviour
         }
         if(Room2Done)
         {
+            Room2Done = false;
             player.gameObject.transform.position = new Vector3(46.02f, 13.456f, -23.53f);
         }
         if(EightPuzzle)

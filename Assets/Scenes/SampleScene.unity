@@ -9780,7 +9780,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 92fe5641066fee441b55248fbca0045f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92fe5641066fee441b55248fbca0045f, type: 3}
@@ -12929,7 +12929,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1991141830128566567
 GameObject:
   m_ObjectHideFlags: 0
@@ -17722,6 +17722,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5326091124128723660, guid: e3886870ad435914897e53a7e2723a6a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5326091124128723660, guid: e3886870ad435914897e53a7e2723a6a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.76
+      objectReference: {fileID: 0}
     - target: {fileID: 5326091124457556388, guid: e3886870ad435914897e53a7e2723a6a,
         type: 3}
       propertyPath: m_InteractionManager
@@ -17742,6 +17752,11 @@ PrefabInstance:
       propertyPath: rightButtonRoom
       value: 
       objectReference: {fileID: 1940436741}
+    - target: {fileID: 5326091125344881608, guid: e3886870ad435914897e53a7e2723a6a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.76
+      objectReference: {fileID: 0}
     - target: {fileID: 5326091125874970796, guid: e3886870ad435914897e53a7e2723a6a,
         type: 3}
       propertyPath: room_radio
@@ -19565,7 +19580,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &6713433364783689212
 GameObject:
   m_ObjectHideFlags: 0
