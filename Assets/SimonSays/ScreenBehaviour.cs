@@ -13,6 +13,7 @@ public class ScreenBehaviour : MonoBehaviour
     public Material RightMaterial;
     public Material BaseMaterial;
     public Material[] colourMaterials = new Material[4];
+    public ControllerScript controllerScript;
 
     void Start()
     {
@@ -60,6 +61,7 @@ public class ScreenBehaviour : MonoBehaviour
             if(numberOfIterations== 0)
             {
                 // puzzle solved.
+                controllerScript.SimonSays = true;
             }
         }
     }

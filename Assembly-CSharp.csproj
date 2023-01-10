@@ -75,7 +75,11 @@
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier.cs" />
     <Compile Include="Assets\Scripts\RightHand.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplines.cs" />
+
     <Compile Include="Assets\script.cs" />
+
+    <Compile Include="Assets\TouchSuit.cs" />
+
     <Compile Include="Assets\DeadFlyPuzzle\FlyColor.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEventsListeners.cs" />
     <Compile Include="Assets\Scripts\AnimateHandOnInput.cs" />
@@ -86,6 +90,7 @@
     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacy.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacyExt.cs" />
     <Compile Include="Assets\Scripts\LeftHand.cs" />
+    <Compile Include="Assets\Menu + progression\PortalChangeLevel.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier2d.cs" />
     <Compile Include="Assets\DeadFlyPuzzle\ColorEnum.cs" />
     <Compile Include="Assets\Scripts\RightHandController.cs" />
@@ -100,11 +105,15 @@
     <Compile Include="Assets\PuzzlePrefabsGabirel( for VR )\BatteryLineCharger\CollidingWith.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\LogoCinematic.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralCameraShake.cs" />
+    <Compile Include="Assets\Menu + progression\Menu Prefabs\MenuController.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingPunch.cs" />
     <Compile Include="Assets\DeadFlyPuzzle\PuzzleController.cs" />
+
     <Compile Include="Assets\TakeBattery.cs" />
+
     <Compile Include="Assets\LeanTween\Framework\LeanAudio.cs" />
     <Compile Include="Assets\Scripts\PhoneSlideShow.cs" />
+    <Compile Include="Assets\Controller\ControllerScript.cs" />
     <Compile Include="Assets\Samples\Animation Rigging\1.1.1\Animation Rigging Constraint Samples\Info\Scripts\Readme.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline.cs" />
     <Compile Include="Assets\PuzzlePrefabsGabirel( for VR )\Rotating Charger\ButtonPressedRC.cs" />
@@ -422,6 +431,14 @@
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
+
+    <Reference Include="Unity.Android.Types">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
+    </Reference>
+
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
     </Reference>

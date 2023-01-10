@@ -12,9 +12,12 @@ public class WireColor : MonoBehaviour
         Debug.Log("Clicked " + gameObject.name.Substring(0, gameObject.name.IndexOf("_")));
         SendColorValue(gameObject.name.Substring(0, gameObject.name.IndexOf("_")));
     }
-    
-    private void OnMouseDown()
+
+    private void OnTriggerEnter(Collider other)
     {
-        ButtonClicked();
+        if (other.gameObject.CompareTag("right_hand") || other.gameObject.CompareTag("left_hand"))
+        {
+            ButtonClicked();
+        }
     }
 }

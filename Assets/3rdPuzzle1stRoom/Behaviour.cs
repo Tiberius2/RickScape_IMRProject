@@ -15,6 +15,7 @@ public class Behaviour : MonoBehaviour
     public GameObject[] BoxWires = new GameObject[4];
     public GameObject FirstWire_Robot;
     public GameObject SecondWire_Robot;
+    public ControllerScript controllerScript;
 
     void Start()
     {
@@ -55,6 +56,7 @@ public class Behaviour : MonoBehaviour
         {
             currentSequence = "";
             yield return StartCoroutine(FlashColour(RightMaterial, 2));
+            controllerScript.WirePuzzle = true;
         }
     }
 
