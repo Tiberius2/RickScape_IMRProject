@@ -49,6 +49,7 @@ TagManager:
   - position
   - left_hand
   - Card
+  - to_destroy
   layers:
   - Default
   - TransparentFX

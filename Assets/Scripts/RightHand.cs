@@ -38,6 +38,8 @@ public class RightHand : MonoBehaviour
 
     private readonly int actualPassword = 7953;
     private string inputPassword = string.Empty;
+    public PortalGunMachineBehaviour machine;
+    public GameObject[] objectsToDestroy;
 
     // Start is called before the first frame update
     void Start()
@@ -45,7 +47,7 @@ public class RightHand : MonoBehaviour
         animator = GetComponent<Animator>();
         animator.SetFloat("punch", punchCurrent);
 
-        if(secretDoor.TryGetComponent<Animator>(out Animator animComp))
+/*        if(secretDoor.TryGetComponent<Animator>(out Animator animComp))
         {
             animComp.SetBool("open_secret_door", true);
         }
@@ -53,7 +55,7 @@ public class RightHand : MonoBehaviour
         if (movingBox.TryGetComponent<Animator>(out Animator animComp2))
         {
             animComp2.SetBool("move_box", true);
-        }
+        }*/
     }
 
     // Update is called once per frame
@@ -203,11 +205,21 @@ public class RightHand : MonoBehaviour
         {
             map.Cancel();
         }
+        if (other.CompareTag("portal_machine"))
+        {
+            machine.Open();
+            objectsToDestroy = GameObject.FindGameObjectsWithTag("to_destroy");
+            foreach (GameObject obj in objectsToDestroy)
+            {
+                Destroy(obj);
+            }   
+        }
         if (other.CompareTag("PortalGunInMachine"))
         {
             other.gameObject.SetActive(false);
             portalGun.SetActive(true);
         }
+        
     }
 
     private void SetActivity(GameObject toFalse, GameObject toTrue, ref bool activityFlag)
