@@ -21,7 +21,7 @@ public class ScreenBehaviour : MonoBehaviour
         correctSequence = GenerateSequence();
         Debug.Log(correctSequence);
         currentSequence = "";
-        numberOfIterations = 3;
+        numberOfIterations = 1;
         StartCoroutine(FlashCorrectSequence());
     }
 
@@ -54,13 +54,14 @@ public class ScreenBehaviour : MonoBehaviour
         {
             currentSequence = "";
             yield return StartCoroutine(FlashColour(RightMaterial, 2));
-            correctSequence = GenerateSequence();
-            Debug.Log("New correct sequence: " + correctSequence);
-            yield return StartCoroutine(FlashCorrectSequence());
+            //correctSequence = GenerateSequence();
+            //Debug.Log("New correct sequence: " + correctSequence);
+            //yield return StartCoroutine(FlashCorrectSequence());
             --numberOfIterations;
             if(numberOfIterations== 0)
             {
                 // puzzle solved.
+                Debug.Log("Done");
                 controllerScript.SimonSays = true;
             }
         }

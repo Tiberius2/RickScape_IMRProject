@@ -35,7 +35,8 @@ public class BatteryChargerController : MonoBehaviour
     public GameObject PieceToMove;
     public float distance;
     public float minDistance = 0.001f;
-    
+    public ControllerScript controllerScript;
+
 
     void Start()
     {
@@ -178,6 +179,10 @@ public class BatteryChargerController : MonoBehaviour
         if (movePiece == false && puzzleEnded == false)
         {
             CheckPuzzle();
+        }
+        else if(puzzleEnded == true)
+        {
+            controllerScript.GOWPuzzle = true;
         }
 
         RetractedPositions = new List<string>()

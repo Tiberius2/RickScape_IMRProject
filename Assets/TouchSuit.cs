@@ -8,6 +8,7 @@ public class TouchSuit : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        Debug.Log("Hit");
         if (collision.other.CompareTag("right_hand") || collision.other.CompareTag("left_hand"))
         {
             controllerScript.Ending1 = true;

@@ -17,6 +17,8 @@ public class RotatingChargerController : MonoBehaviour
     public bool InnerGood;
     public bool PuzzleEnded;
     public float ejectForce = 10f;
+    public ControllerScript controllerScript;
+
     void Start()
     {
         OutterGood = false;
@@ -63,6 +65,7 @@ public class RotatingChargerController : MonoBehaviour
 
         if (PuzzleEnded == true)
         {
+            controllerScript.RoundPuzzle = true;
             EjectBattery();
         }
     }

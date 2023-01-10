@@ -19,14 +19,14 @@ public class Behaviour : MonoBehaviour
 
     void Start()
     {
-        ButtonColor.SendColorValue += AddValueAndCheckSequence;
+        WireColor.SendColorValue += AddValueAndCheckSequence;
         correctSequence = GenerateSequence();
         currentSequence = "";
     }
 
     private void OnDestroy()
     {
-        ButtonColor.SendColorValue -= AddValueAndCheckSequence;
+        WireColor.SendColorValue -= AddValueAndCheckSequence;
     }
 
     private void AddValueAndCheckSequence(string buttonColor)

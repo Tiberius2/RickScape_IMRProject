@@ -48,12 +48,9 @@ TagManager:
   - PortalGunInMachine
   - position
   - left_hand
-
-  - Battery
-
-  - Card
   - to_destroy
-
+  - Card
+  - Battery
   layers:
   - Default
   - TransparentFX

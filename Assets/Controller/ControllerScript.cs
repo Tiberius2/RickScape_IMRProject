@@ -31,6 +31,8 @@ public class ControllerScript : MonoBehaviour
     public GameObject door2;
     public GameObject door3;
     public GameObject player;
+    public GameObject suit;
+    public GameObject text;
 
     // Start is called before the first frame update
     void Start()
@@ -64,7 +66,7 @@ public class ControllerScript : MonoBehaviour
         {
             door1.gameObject.SetActive(false);
         }
-        if(BatteriesPlaced)
+        if(GOWPuzzle && RoundPuzzle)
         {
             door2.gameObject.SetActive(false);
         }
@@ -74,7 +76,8 @@ public class ControllerScript : MonoBehaviour
         }
         if (Ending1)
         {
-            SceneManager.LoadScene("Ending1");
+            suit.gameObject.SetActive(false);
+            text.gameObject.SetActive(true);
         }
         if (Ending2)
         {
