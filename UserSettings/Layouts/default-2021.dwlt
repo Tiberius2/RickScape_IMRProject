@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Console
+  m_Title: Inspector
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 350}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 18
+  controlID: 22
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 19
+  controlID: 23
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -191,8 +191,8 @@ MonoBehaviour:
     y: 0
     width: 1091
     height: 605
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -219,15 +219,15 @@ MonoBehaviour:
     y: 605
     width: 1091
     height: 334
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
+  m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
   - {fileID: 16}
   - {fileID: 17}
-  m_Selected: 2
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 2
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -247,8 +247,8 @@ MonoBehaviour:
     y: 0
     width: 430
     height: 939
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -811,10 +811,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 143}
-      m_SelectedIDs: e894ffff
-      m_LastClickedID: -27416
-      m_ExpandedIDs: a294ffffe894ffffec94ffff8e95ffff009affffd09affffd49afffff49affffb09cffff68c50000a4c600001ec7000036c70000b0c8000088ca0000b2ca000006ce00006ece0000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: d86a0000366a0000
+      m_LastClickedID: 27190
+      m_ExpandedIDs: 32f5ffff2efbfffffe6c0000286d00007c700000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1075,9 +1075,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 40.32025, y: 14.780743, z: -15.361152}
+    m_Target: {x: 46.854675, y: 14.271854, z: -28.27082}
     speed: 2
-    m_Value: {x: 40.32025, y: 14.780743, z: -15.361152}
+    m_Value: {x: 46.854675, y: 14.271854, z: -28.27082}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1124,20 +1124,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.13688986, y: 0.6993001, z: -0.13920915, w: -0.6876525}
+    m_Target: {x: -0.00041143192, y: 0.99049586, z: 0.1375625, w: 0.002971872}
     speed: 2
-    m_Value: {x: -0.13688955, y: 0.6992985, z: -0.13920884, w: -0.687651}
+    m_Value: {x: -0.00040697082, y: 0.99069387, z: 0.13607562, w: 0.002972464}
   m_Size:
-    m_Target: 0.8660254
+    m_Target: 2.7148645
     speed: 2
-    m_Value: 0.8660254
+    m_Value: 2.7148645
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1.0249
-    m_SpeedNormalized: 0.51
+    m_Speed: 0.9851009
+    m_SpeedNormalized: 0.49000046
     m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -1290,22 +1290,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/PuzzlePrefabsGabirel( for VR )/BatteryLineCharger
+    - Assets/Samples/Animation Rigging/1.1.1/Animation Rigging Constraint Samples
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/PuzzlePrefabsGabirel( for VR )/BatteryLineCharger
+  - Assets/Samples/Animation Rigging/1.1.1/Animation Rigging Constraint Samples
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Ardeleanu Gabriel\Desktop\Facultate\IMR\IMR_PROJ
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: bcd40000
-    m_LastClickedID: 54460
-    m_ExpandedIDs: 00000000aac40000c2c400003ac500003cc5000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 203}
+    m_SelectedIDs: 14830000
+    m_LastClickedID: 33556
+    m_ExpandedIDs: 0000000058820000c6820000168300001883000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1333,7 +1333,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 0000000058820000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1358,24 +1358,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: e894ffff
-    m_LastClickedInstanceID: -27416
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000e27100005e89000040c7000042b500002886000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Room3Puzzle1Prefab
-      m_OriginalName: Room3Puzzle1Prefab
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 53250
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 9}
     m_CreateAssetUtility:
