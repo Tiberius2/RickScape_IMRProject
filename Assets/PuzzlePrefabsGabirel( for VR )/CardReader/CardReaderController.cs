@@ -12,6 +12,7 @@ public class CardReaderController : MonoBehaviour
     public bool CardAcceptedConfirmed = false;
     public float currentTime = 0f;
     public float endTime = 5f;
+    public ControllerScript controllerScript;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -90,5 +91,11 @@ public class CardReaderController : MonoBehaviour
             }
         }
     }
-
+    private void Update()
+    {
+        if(CardAcceptedConfirmed)
+        {
+            controllerScript.CardPuzzle = true;
+        }
+    }
 }

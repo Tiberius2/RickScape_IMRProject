@@ -30,6 +30,7 @@ public class Controller8PiecePuzzle : MonoBehaviour
     public bool puzzleEnded = false;
     public RaycastHit hit;
     public Vector3 endPosition;
+    public ControllerScript controllerScript;
     public async void AttemptMovement(GameObject piece)
     {
         if (piece.GetComponent<NearPieces>().up_open)
@@ -156,6 +157,10 @@ public class Controller8PiecePuzzle : MonoBehaviour
             {
                 AttemptMovement(Piece8);
             }
+        }
+        else if(puzzleEnded)
+        {
+            controllerScript.EightPuzzle = true;
         }
     }
 }

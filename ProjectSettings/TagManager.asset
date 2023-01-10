@@ -46,6 +46,9 @@ TagManager:
   - Enemy
   - PoralGunHand
   - PortalGunInMachine
+  - position
+  - left_hand
+  - Card
   layers:
   - Default
   - TransparentFX
